@@ -1,0 +1,222 @@
+body{
+    color: aliceblue;
+    background-color: black;
+}
+.header{
+border-bottom: 5px solid white;
+width: 1330px;
+height: 75px;
+background-color: black;
+position: fixed;
+margin-top: -80px;
+font-family: Verdana;
+
+
+
+}
+.header ul{
+    margin-top: 30px;
+    color: azure;
+    float:right;
+    
+}
+.header li{
+    display: inline-block;
+    
+}
+li a{
+    margin-right:20px;
+    color:white;
+    text-decoration: none;
+}
+.imgheader img{
+    
+    border: 1px solid black;
+    width: 150px;
+    height: 68px;
+    
+}
+
+.front{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin-left: 230px;
+    margin-top: 80px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.mission{
+    border: 1px solid black;
+    height:90px;
+    margin-top:180px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+.txtcenter{
+    border: 1px solid black;
+    text-align: center;
+    font-family: Verdana;
+}
+.imgcenter{
+    border: 1px solid black;
+    height: 200px;
+    width: auto;
+    
+    
+    
+}
+
+.imgone img{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    
+   
+}
+.imgtxt{
+    border: 1px solid black;
+    height: 50px;
+    width: auto;
+    
+   
+    
+    
+    
+}
+
+.imgtxt1 h5{
+    border: 1px solid black;
+    height: 20px;
+    width: 200px;
+    margin-left: 30px;
+    display: inline-block;
+    font-family: Verdana;
+    
+}
+.image{
+    border: 1px solid black;
+    height: 200px;
+    width: auto;
+    
+    
+    
+    
+}
+
+.imagetwo img{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    
+   
+}
+.txtimage{
+    border: 1px solid black;
+    height: 50px;
+    width: auto;
+    
+   
+    
+    
+    
+}
+
+.txt1image h5{
+    border: 1px solid black;
+    height: 20px;
+    width: 200px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+.imgunder {
+    border: 1px solid white;
+    width: 700px;
+    height: 350px;
+    margin-left: 328px;
+    margin-top: 40px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    
+
+}
+
+
+.imgunder h2{
+    text-align: center;
+    
+    
+     
+ }
+ .location h2   {
+   color:black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+    
+.textunder{
+    
+    height: 200px;
+    width: auto;
+    font-family: verdana;
+    font-size: 18px;
+    
+    
+}
+.textunder2 {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    
+}
+.textunder2 li{
+    display: block;
+    margin-top: 20px;
+}
+.textunder3{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    
+}
+.textunder3 li{
+    display: block;
+    margin-top: 20px;
+}
+.textunder4{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    
+}
+.textunder4 li{
+    display: block;
+    margin-top: 20px;
+}
+.tea{
+    text-align: center;
+    font-style: italic;
+}
+.footer{
+    border-top: 1px solid white;
+    
+}
+
+
