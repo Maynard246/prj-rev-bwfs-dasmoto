@@ -1,0 +1,219 @@
+.header{
+    border: 1px solid black;
+    width: 1330;
+    height: 50px;
+    background-color: black;
+}
+
+.header img{
+    margin-top: 8px;
+    margin-left: 60px;
+    width:50px;
+    height: 40px;
+
+}
+.header h3{
+   float:right;
+   width: auto;
+   color: rgb(52, 179, 179);
+   margin-top: 18px;
+   margin-left: 10px;   
+   margin-right: 1000px;   
+    
+    
+}
+
+.moto img{
+    border-bottom: 5px solid black;
+    width: 1349px;
+    height: 31rem;
+    position: relative;
+}
+.textinside{
+    border: 3px solid black;
+    width: 400px;
+    height: 180px;
+    margin-top:-15rem;
+    margin-left:9.50rem;
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    
+    
+}
+.firsttext h4{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: helvetica;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.firsttext h2{
+    color: white;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 1330;
+    height: 50px;
+    background-color: firebrick;
+    margin-top: -5px; 
+    font-family: helvetica;
+    font-weight: bold;
+}
+.menutxt{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: -20px;
+}
+.menutxt2{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+.menutxt3{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+.menutxt4{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 7rem;
+    
+}
+.menutxt5{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+.menutxt6{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 7rem;
+    
+}
+.menutxt h2{
+    
+    font-family: helvetica;
+    display: inline-block;
+    margin-left: 170px;
+
+}
+.imgcenter{
+    margin-top: 50px; 
+    margin-left: 150px;
+    width: 1050px;
+    height: 15rem;
+    
+}
+
+.items{
+    margin-left: 2rem;
+}
+.pen{
+    border: 3px solid black;
+    width:17.50rem;
+    height: 19rem;
+    margin-left: -2rem;
+    display: inline-block;
+    position: relative;
+}
+.pen img{
+    width: 11rem;
+    height: 11rem;
+    position: absolute ;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box{
+    border: 3px solid black;
+    height: 3.85rem;
+    width: 17.rem;
+    margin-top: 14.90rem;
+    background-color:black;
+}
+
+
+.watch{
+    border: 3px solid black;
+    width:17.50rem;
+    height: 19rem;
+    margin-left: 5rem;
+    display: inline-block;
+    position: relative;
+}
+.watch img{
+    width: 11rem;
+    height: 11rem;
+    position: absolute ;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box2{
+    border: 3px solid black;
+    height: 3.85rem;
+    width: 17.rem;
+    margin-top: 14.90rem;
+    background-color:black;
+}
+.glasses{
+    border: 3px solid black;
+    width:17.50rem;
+    height: 19rem;
+    margin-left: 5.80rem;
+    display: inline-block;
+    position: relative;
+}
+.glasses img{
+    width: 10rem;
+    height: 5rem;
+    position: absolute ;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.box3{
+    border: 3px solid black;
+    height: 3.85rem;
+    width: 17.rem;
+    margin-top: 14.90rem;
+    background-color:black;
+}
+.undercenter{
+    border: 1px solid black;
+    width: 1330;
+    height: 50px;
+    margin-top: 7.50rem;
+}
+.location{
+    border: 1px solid black;
+    width:22rem;
+    height: 50px;
+    display: inline-block;
+    margin-left: 9.25rem; 
+}
+.hour{
+    border: 1px solid black;
+    width:22rem;
+    height: 50px;
+    display: inline-block;
+    margin-left: 21.25rem;
+}
+.semifooter{
+    margin-top: 4rem;
+    border: 2px dotted black;
+    
+}
+.footer{
+    border: 2px double black;
+    width:auto;
+    height:100px;
+}
