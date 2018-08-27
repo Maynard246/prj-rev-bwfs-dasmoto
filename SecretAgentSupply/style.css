@@ -1,8 +1,13 @@
+
 .header{
     border: 1px solid black;
     width: 1330;
     height: 50px;
     background-color: black;
+    position: fixed;
+    z-index: 1;
+    
+    
 }
 
 .header img{
@@ -15,12 +20,13 @@
 .header h3{
    float:right;
    width: auto;
-   color: rgb(52, 179, 179);
+   color: silver;
    margin-top: 18px;
    margin-left: 10px;   
-   margin-right: 1000px;   
+   margin-right: 1000px;
+   
     
-    
+   
 }
 
 .moto img{
@@ -30,7 +36,6 @@
     position: relative;
 }
 .textinside{
-    border: 3px solid black;
     width: 400px;
     height: 180px;
     margin-top:-15rem;
@@ -42,7 +47,7 @@
     
 }
 .firsttext h4{
-    color: white;
+    color: silver;
     font-size: 16px;
     font-weight: bold;
     font-family: helvetica;
@@ -51,7 +56,7 @@
     
 }
 .firsttext h2{
-    color: white;
+    color:silver;
     font-weight: bold;
     font-family: helvetica;
     font-size: 35px;
@@ -61,7 +66,7 @@
 
 .menu{
     border: 1px solid black;
-    width: 1330;
+    width: auto;
     height: 50px;
     background-color: firebrick;
     margin-top: -5px; 
@@ -69,20 +74,50 @@
     font-weight: bold;
 }
 .menutxt{
+    
     display: inline-block;
     font-size: 20px;
     margin-top: 16px;
     margin-left: -20px;
+    
+}
+.menutxt a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt a{
+    color:black;
+    text-decoration: none;
 }
 .menutxt2{
     display: inline-block;
     font-size: 20px;
     margin-left: 7rem;
 }
+.menutxt2 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt2 a{
+    color:black;
+    text-decoration: none;
+}
 .menutxt3{
     display: inline-block;
     font-size: 20px;
     margin-left: 7rem;
+}
+.menutxt3 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt3 a{
+    color:black;
+    text-decoration: none;
+}
+.menutxtmid{
+    visibility: hidden;
+    position: absolute;
 }
 .menutxt4{
     display: inline-block;
@@ -90,16 +125,40 @@
     margin-left: 7rem;
     
 }
+.menutxt4 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt4 a{
+    color:black;
+    text-decoration: none;
+}
 .menutxt5{
     display: inline-block;
     font-size: 20px;
     margin-left: 7rem;
+}
+.menutxt5 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt5 a{
+    color:black;
+    text-decoration: none;
 }
 .menutxt6{
     display: inline-block;
     font-size: 20px;
     margin-left: 7rem;
     
+}
+.menutxt6 a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxt6 a{
+    color:black;
+    text-decoration: none;
 }
 .menutxt h2{
     
@@ -113,6 +172,8 @@
     margin-left: 150px;
     width: 1050px;
     height: 15rem;
+    font-family: helvetica;
+    font-weight: bold;
     
 }
 
@@ -141,7 +202,13 @@
     margin-top: 14.90rem;
     background-color:black;
 }
-
+.box h1{
+    color: aliceblue;
+    position: absolute;
+    padding-top: 1.5rem;
+    padding-left: 5.1rem;
+   
+}
 
 .watch{
     border: 3px solid black;
@@ -165,6 +232,12 @@
     margin-top: 14.90rem;
     background-color:black;
 }
+.box2 h1{
+    color: aliceblue;
+    position: absolute;
+    padding-top: 1.5rem;
+    padding-left: 5.1rem;
+}
 .glasses{
     border: 3px solid black;
     width:17.50rem;
@@ -187,11 +260,18 @@
     margin-top: 14.90rem;
     background-color:black;
 }
+.box3 h1{
+    color: aliceblue;
+    position: absolute;
+    padding-top: 1.5rem;
+    padding-left: 4.5rem;
+}
 .undercenter{
-    border: 1px solid black;
+    
     width: 1330;
     height: 50px;
     margin-top: 7.50rem;
+    font-family: helvetica;
 }
 .location{
     border: 1px solid black;
@@ -199,21 +279,185 @@
     height: 50px;
     display: inline-block;
     margin-left: 9.25rem; 
+    position: absolute;
+    background-color: black;
 }
-.hour{
+.location h1{
+    font-weight: bold;
+    color: aliceblue;
+    padding-top:1rem;
+    text-align: center;
+}
+.hours{
     border: 1px solid black;
     width:22rem;
     height: 50px;
     display: inline-block;
-    margin-left: 21.25rem;
+    margin-left: 52.25rem;
+    background-color: black;
+    
+    
+}
+.hours h1{
+    font-weight: bold;
+    color: aliceblue;
+    padding-top:1rem;
+    text-align: center;
+}
+.number{
+    padding-top: 4rem;
+    padding-left: 9.5rem; 
+    position: absolute;
+}
+.number1{
+    padding-top: .7rem;
+    padding-left: 52.5rem; 
+    position: absolute;
 }
 .semifooter{
     margin-top: 4rem;
-    border: 2px dotted black;
+    border: 2px solid black;
     
 }
 .footer{
     border: 2px double black;
     width:auto;
-    height:100px;
+    height:45px;
+    background-color: black;
 }
+.footer h1{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: .8rem
+
+}
+@media only screen and (max-width: 800px){
+.textinside{
+    margin-left: 0px;
+    
+}
+.menutxt{
+    visibility: hidden;
+}
+.menutxt2{
+    visibility: hidden;
+}
+.menutxt3{
+    visibility: hidden;
+}
+.menutxt4{
+    visibility: hidden;
+}
+.menutxt5{
+    visibility: hidden;
+}
+.menutxt6{
+    visibility: hidden;
+}
+.menutxtmid{
+    
+    visibility: visible;
+    margin-left: 22rem;
+    position: absolute;
+    margin-top: -1rem;
+   
+}
+.menutxtmid a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.menutxtmid a{
+    
+    color:black;
+    text-decoration: none;
+    width: 100px;
+    height: 98px;
+}
+.menu{
+    width:auto;
+}
+.location{
+    margin-left: 0px;
+}
+.number{
+    padding-left: 0px;
+}
+.hours{
+    margin-left:420px;
+    position: absolute;
+}
+.number1{
+    padding-top: 60px;
+    padding-left:420px;
+    
+}
+.pen{
+    margin-left: -115px;
+    position: absolute;
+}
+.watch{
+    margin-left: 240px;
+}
+}
+@media only screen and (max-width: 400px){
+.textinside{
+    padding-bottom: 5rem;
+    width: auto;
+    height:100px;
+        
+    }
+.menutxtmid{
+    margin-left: 10rem;
+    
+    margin-top: -3.5rem;
+       
+    }
+.menu{
+    width: auto;
+}
+.pen{
+    margin-left: -150px
+    }
+.hours{
+    margin-top: 90px;
+    margin-left:0px;
+        
+    }
+.footer{
+    margin-top: 5rem;
+}
+.number1 h1 {
+    margin-top: 100px;
+    margin-left:-420px;
+    color: black;
+    
+}
+.glasses{
+    visibility: hidden;
+}
+.watch{
+    visibility: hidden;
+}
+}
+@media only screen and (max-width: 1230px){
+    .menutxt6{
+    visibility: hidden;
+    }
+
+}
+@media only screen and (max-width: 1030px){
+    .menutxt5{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 840px){
+    .menutxt4{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 1355px){
+    .header h3{
+        visibility: hidden;
+    }
+    }
