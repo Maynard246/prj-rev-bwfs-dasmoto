@@ -2,7 +2,8 @@
 #navbar {
     background-color: white;
     height: 64px;
-    margin-top:-10px;
+    width:1320px;
+    margin-top:-10px;  
 }
 #navbar img {
     height: 50px;
@@ -21,17 +22,38 @@
     position: absolute;
     margin-top: 20px;
 }
+.icons {
+    margin-left: 200px;
+    margin-top: -58px;
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+}
+.icons2 {
+    margin-left: 390px;
+    margin-top: -58px;
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+}
+.icons3 {
+    margin-left: 580px;
+    margin-top: -58px;
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+}
 .menubar h1 {
     display: inline-block;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Russo One', sans-serif;
     font-family: 'Luckiest Guy', cursive;
-    margin-left:60px;
+    margin-left:90px;
     font-size: 20px;
 }
 .menubar a {
     text-decoration: none;
-    color: black;  
+    color: black;
 }
 .menubar a:hover {
     color: brown;
@@ -44,20 +66,21 @@
     color: white;
 }
 .menubar {
-    position: absolute;
+    width:710px;
     margin-top: -53px;
-    margin-left: 44rem;
+    margin-left: 38rem;
+    display: flex; 
 }
 /*body*/
 .bgcolor {
-    
+    width: 1320px;
     height: 500px;
     background-color: rgb(209, 203, 203);
 }
 .pic {
     position: absolute;
     height:400px;
-    width: 50%;
+    width: 676px;
     margin-top: 50px;
     margin-left: 50px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
@@ -65,6 +88,8 @@
 .pic img {
     height:400px;
     width: 100%;
+    
+    
 }
 .pic img:hover {
     height:410px;
@@ -90,19 +115,20 @@
     font-size: 38px;
     color: rgb(66, 65, 65);
     font-weight: bold;
+    display: flex;
 }
 .text h2 {
     font-size: 20px;
     color: rgb(66, 65, 65);
     font-weight: normal;
+    display: flex;
 }
 .start {
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
-    
     height: 36px;
-    width: 20%;
+    width: auto;
     float:right;
-    margin-right: -275px;
+    margin-right: -190px;
     margin-top: 350px;
     background-color:  rgb(66, 65, 65);
     text-align: center;
@@ -111,7 +137,6 @@
 .start a {
     text-decoration: none;
     color: white;
-
 }
 .start h1 {
     margin-top: -9px;
@@ -136,6 +161,7 @@
 }
 .secondbgcolor h1 {
     position: absolute;
+    width: 700px;
     margin-top: 480px;
     margin-left: 48px;
     font-family: 'Abril Fatface', cursive;
@@ -145,6 +171,15 @@
     font-family: 'Monoton', cursive; 
     color: black;  
 }
+.secondbgcolor p {
+    width:600px;
+    position: absolute;
+    margin-top:540px;
+    margin-left: 50px;
+    font-size: 15px;
+    color:gray;
+    font-family: helvetica;
+}
 .secondbgcolor img {
     margin-top: 50px;
     margin-left: 50px;
@@ -152,14 +187,28 @@
     height:400px;
     width:675px;
 }
-
+.secondbgcolor h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+}
+.secondbgcolor img:hover {
+    height:420px;
+    width:685px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
 .orientA {
     border:1px solid gray;
     width: 530px;
     height: 200px;
     position:relative;
-    margin-left: 50rem;
-    margin-top: 0px;
+    margin-left: 49rem;
+    margin-top: 450px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
@@ -170,12 +219,23 @@
     margin-top: 20px;
     margin-left:20px;
 }
+.orientA h1 {
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    margin-left:200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+}
 .orientB {
     border:1px solid gray;
     width: 530px;
     height: 200px;
     position:relative;
-    margin-left: 50rem;
+    margin-left: 49rem;
     margin-top: -405px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -187,12 +247,23 @@
     margin-top: 20px;
     margin-left:20px;
 }
+.orientB h1 {
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px; 
+    margin-left:205px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
 .orientC {
     border:1px solid gray;
     width: 530px;
     height: 200px;
     position:relative;
-    margin-left: 50rem;
+    margin-left: 49rem;
     margin-top: -405px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -203,4 +274,467 @@
     position:absolute;
     margin-top: 20px;
     margin-left:20px;
+}
+.orientC h1 {
+    text-decoration: none;
+    list-style: none;
+    float:right;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+.orientC p {
+    width: auto;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 200px;
+    font-family: helvetica;
+    color: gray;
+}
+.btn {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    margin-top: -70px;
+    margin-left: 1000px;
+    background-color: rgb(0, 174, 255);
+    
+}
+.btn h5{
+    display: flex;
+    margin-top: 2.4px; 
+    margin-left: 5px;
+    position: absolute;
+    color: white;
+    font-family: arial;   
+}
+.btn:hover{
+    margin-top:-68px;
+}
+.orientB p {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 200px;
+    font-family: helvetica;
+    color: gray;
+    text-decoration: none;
+    list-style: none;
+}
+.button {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    margin-top: 190px;
+    margin-left: 1000px;
+    background-color: rgb(0, 174, 255);
+    
+}
+.button h5 {
+    display: flex;
+    margin-top: 2.4px; 
+    margin-left: 5px;
+    position: absolute;
+    color: white;
+    font-family: arial;   
+}
+.button:hover{
+    margin-top:192px;
+}
+.orientA p {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 200px;
+    font-family: helvetica;
+    color: gray;
+}
+.buttonthree {
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    width: 80px;
+    height: 20px;
+    margin-top: 180px;
+    margin-left: 1000px;
+    background-color: rgb(0, 174, 255);
+    
+}
+.buttonthree h5 {
+    display: flex;
+    margin-top: 2.4px; 
+    margin-left: 5px;
+    position: absolute;
+    color: white;
+    font-family: arial;   
+}
+.buttonthree:hover{
+    margin-top:182px;
+}
+.third {
+    background-color: rgb(209, 203, 203);
+    width: 1320px;
+    height: 900px;
+    margin-top:100px;
+}
+.third h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.firstpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    font-size: 20px;
+    margin-top:0px;
+}
+.firstpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.firstpic p {
+    margin-left:15px;
+}
+.firstpic {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    margin-left:150px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.firstpic img {
+    width: 100%;
+}
+.secondpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:15px;
+}
+.secondpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.secondpic p {
+    margin-left:15px;
+}
+.secondpic {
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top:-360px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.secondpic img {
+    width: 100%;
+}
+.thirdpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:15px;
+}
+.thirdpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.thirdpic p {
+    margin-left:15px;
+}
+.thirdpic {
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 855px;
+    margin-top:-360px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.thirdpic img {
+    width: 100%;
+}
+
+.forthpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:15px;
+}
+.forthpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.forthpic p {
+    margin-left:15px;
+    
+}
+.forthpic {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    margin-left:150px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+.forthpic img {
+    width: 100%;
+}
+.fifthpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:15px;
+}
+.fifthpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.fifthpic p {
+    margin-left:15px;
+}
+.fifthpic {
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top:-360px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.fifthpic img {
+    width: 100%;
+}
+.sixthpic h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 20px;
+    margin-top:0px;
+    margin-left:15px;
+}
+.sixthpic h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    margin-left:15px;
+    margin-top:-20px;
+}
+.sixthpic p {
+    margin-left:15px;
+}
+.sixthpic {
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 855px;
+    margin-top:-360px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.sixthpic img {
+    width: 100%;
+}
+.thesis {
+    
+    background-color: white;
+    width: 1320px;
+    height: 900px;
+    margin-top:60px;
+}
+.thesis h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.thesis video {
+    width: 55%;
+    height:55%;
+    margin-left: 20px;
+}
+.thesis1 {
+    border:1px solid gray;
+    width: 530px;
+    height: 200px;
+    position:relative;
+    margin-left: 49rem;
+    margin-top: -580px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.thesis1 img {
+    width: 180px;
+    height: 160px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.thesis1 h1 {
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    margin-left:200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+}
+.thesis1 p {
+    position: absolute;
+    margin-top: 110px;
+    margin-left:200px;
+}
+.thesis2 {
+    border:1px solid gray;
+    width: 530px;
+    height: 200px;
+    position:relative;
+    margin-left: 49rem;
+    margin-top: -405px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.thesis2 img {
+    width: 180px;
+    height: 160px;
+    position:absolute;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.thesis2 h1 {
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px; 
+    margin-left:205px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.thesis2 p {
+    position: absolute;
+    margin-top: 130px;
+    margin-left:200px;
+}
+.textlast {
+    margin-left: 20px;
+    width: 600px;
+    position: absolute;
+    margin-top: 250px;
+}
+.textlast h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    color:black;
+}
+textlast p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*footer*/
+.footer {
+    position: absolute;
+    border-top: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1330px;
+    margin-top:500px;
+}
+.footer h1 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 300px;
+    
+}
+.footer {
+    text-align: center;
+}
+.footer li{
+    margin-top: 40px;
+    display: inline-block;
+}
+.footer a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color:black;
+}
+/*Media query for Phone*/
+@media only screen and (max-width: 700px) {
+    .menubar {
+        visibility: hidden;
+    }
+    #navbar h3 {
+        visibility: hidden; 
+    }
+    #navbar h2 {
+        visibility: hidden; 
+    }
+    .icons {
+        visibility: visible;
+    }
+    .icons2 {
+        visibility: visible;
+    }
+    .icons3 {
+        visibility: visible;
+    }
 }
