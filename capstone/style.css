@@ -690,6 +690,24 @@
 textlast p {
     font-family: Arial, Helvetica, sans-serif;
 }
+.firsttext {
+    display: none; 
+}
+.secondtext {
+    display: none; 
+}
+.thirdtext {
+    display: none; 
+}
+.forthtext {
+    display: none;  
+}
+.fifthtext {
+    display: none;  
+}
+.sixthtext {
+    display: none; 
+}
 /*footer*/
 .footer {
     position: absolute;
@@ -719,22 +737,308 @@ textlast p {
 }
 /*Media query for Phone*/
 @media only screen and (max-width: 700px) {
+    /*Media query Header*/
+    #navbar {
+        width: 670px;   
+    }
     .menubar {
         visibility: hidden;
+        border: 1px solid black;
+        margin-left: -1000px;
     }
     #navbar h3 {
         visibility: hidden; 
+        margin-left:-1000px
     }
     #navbar h2 {
-        visibility: hidden; 
+        visibility: hidden;
+        margin-left:-1000px 
     }
     .icons {
         visibility: visible;
+       
+    }
+    .icons:hover {
+        opacity: .5;
     }
     .icons2 {
         visibility: visible;
     }
+    .icons2:hover {
+        opacity: .5;
+    }
     .icons3 {
         visibility: visible;
+    }
+    .icons3:hover {
+        opacity: .5;
+    }
+     /*Media query Body*/
+    .bgcolor {
+        width:670px;
+        height:600px;
+    }
+    .pic {
+        width: 670px;
+        height: 400px;
+        margin-top:-0px;
+        margin-left:-0px;
+        position: absolute;
+    }
+    .pic img {
+        height: 100%;
+        
+    }
+    .text h1 {
+        width: 600px;
+        margin-top: 330px;
+        margin-left: -320px;
+        font-size: 30px;
+    }
+    .text h2 {
+        width: 400px;
+        margin-top: -20px;
+        margin-left:-320px;
+        font-size: 15px;
+    }
+    .start {
+        position: absolute;
+        margin-top: 530px;
+        margin-left: 80px;
+        width: 500px;
+    }
+    .secondbgcolor {
+        visibility: hidden;
+        border: 1px solid black;
+        margin-left:-1000px;
+    }
+    .orientC {
+        margin-left: 0px;
+        width:670px;
+    }
+    .orientB {
+        margin-left: 0px;
+        width:670px;
+    }
+    .orientA {
+        margin-left: 0px;
+        width:670px;
+    }
+    .btn {
+        visibility: hidden;
+        margin-left:-1000px
+    }
+    .button {
+        visibility: hidden;
+        margin-left:-1000px
+    }
+    .buttonthree {
+    visibility: hidden;
+    margin-left:-1000px
+    }
+    .third {
+        width:670px;
+        height: 750px;
+    }
+    .third h1 {
+        position: absolute;
+        margin-left: 200px;
+    }
+    .firstpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .secondpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .thirdpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .forthpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .fifthpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .sixthpic {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .firsttext h1 {
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 115px;
+        margin-top: -15px;
+    }
+    .firsttext {
+        background-color: aliceblue;
+        width: 668px;
+        height: 50px;
+        margin-top: -280px;
+        visibility: visible;
+        display: block;
+    }
+    .firsttext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .secondtext h1{
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 218px;
+        margin-top: -15px;
+    }
+    .secondtext {
+        background-color: aliceblue;
+        width: 668px;
+        height: 50px;
+        margin-top: 60px;
+        visibility: visible;
+        display: block;
+    }
+    .secondtext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .thirdtext h1{
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 270px;
+        margin-top: -15px;
+    }
+    .thirdtext {
+        background-color: aliceblue;
+        width: 668px;
+        height: 50px;
+        margin-top: 60px;
+        visibility: visible;
+        display: block;
+    }
+    .thirdtext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .forthtext h1{
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 290px;
+        margin-top: -15px;
+    }
+    .forthtext {
+        background-color: aliceblue;
+        width: 668px;
+        height: 50px;
+        margin-top: -350px;
+        visibility: visible;
+        display: block;
+    }
+    .forthtext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .fifthtext h1{
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 248px;
+        margin-top: -15px;
+    }
+    .fifthtext {
+        background-color: aliceblue;
+        width: 668px;   
+        height: 50px;
+        margin-top: 60px;
+        visibility: visible;
+        display: block;
+    }
+    .fifthtext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .sixthtext h1{
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Sigmar One', cursive;
+        font-family: 'Monoton', cursive;
+        font-family: 'Passion One', cursive;
+        font-family: 'Bungee Inline', cursive;
+        margin-left: 238px;
+        margin-top: -15px;
+    }
+    .sixthtext {
+        background-color: aliceblue;
+        width: 668px;   
+        height: 50px;
+        margin-top: 60px;
+        visibility: visible;
+        display: block;
+    }
+    .sixthtext:hover {
+        box-shadow: 0px 8px 5px 0px rgb(10, 10, 10);
+    }
+    .thesis {
+        width: 670px;
+        height:500px;
+    }
+    .thesis video {
+        width: 100%;
+        height: 100%;
+        margin-top:-63px;
+        margin-left: 0px; 
+    }
+    .thesis h1 {
+        position: absolute;
+        margin-left: 200px;
+        margin-top: -30px; 
+    }
+    .thesis1 {
+        visibility: hidden;
+        margin-left:-1000px
+    }
+    .thesis2 {
+        visibility: hidden;
+        margin-left:-1000px 
+    }
+    .textlast {
+        visibility: hidden;
+        margin-left:-1000px
+    }
+     /*Media query Footer*/
+    .footer {
+        width:670px;
+        margin-left:-150px;
+        border: none;
+    }
+    .footer h1 {
+        margin-top: 20px; 
+        font-size: 20px;
+    }
+    .footer ul {
+        position: absolute;
+        margin-left: 370px;
     }
 }
