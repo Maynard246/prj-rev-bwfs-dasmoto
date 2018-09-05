@@ -1,0 +1,142 @@
+.col-xs-2 img {
+    margin-top:5px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+}
+.col-xs-10 {
+  text-align: center;
+  margin-top: 15px;
+}
+.col-xs-10 li {
+  margin-left: 50px;
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: slategray;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Passion One', cursive;
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+.col-md-12 {
+  object-fit: cover;
+}
+.col-md-12 img {
+  width: 100%;
+}
+.container h1 {
+  margin-left: 10px;
+}
+.col-xs-4 {
+    text-align: center;
+    margin-top:10px;
+  }
+  .logo1 {
+    margin-left: 65px;
+    height: 230px;
+    width: 230px;
+    border-bottom: 3px solid red;
+  }
+  .logo1:hover {
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  .logo1 img {
+    margin-top: 20px;
+    width:70px;
+    height:70px;
+  }
+  .logo1 h1 {
+    font-size: 25px;
+  }
+  .logo1 h2 {
+    font-size: 15px;
+  }
+  .logo2 {
+    margin-left: 65px;
+    border-bottom: 3px solid cadetblue;
+    height: 230px;
+    width: 230px;
+  }
+  .logo2:hover {
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
+    background-color: rgba(95, 158, 160, 0.5)
+  }
+  .logo2 img {
+    margin-top: 20px;
+    width:70px;
+    height:70px;
+  }
+  .logo2 h1 {
+    font-size: 25px;
+  }
+  .logo2 h2 {
+    font-size: 15px;
+  }
+  .logo3 {
+    margin-left: 65px;
+    border-bottom: 3px solid rgb(4, 19, 68);
+    height: 230px;
+    width: 230px;
+  }
+  .logo3:hover {
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
+    background-color: rgba(4, 19, 68, 0.6);
+  }
+  .logo3 img {
+    margin-top: 20px;
+    width:70px;
+    height:70px;
+  }
+  .logo3 h1 {
+    font-size: 25px;
+  }
+  .logo3 h2 {
+    font-size: 15px;
+  }
+  .vid video {
+    margin-top:20px;
+    margin-left:0px;
+    width: 100%;
+  }
+  .news img {
+      margin-top:50px;
+      width:70px;
+      height:70px;
+  }
+  .awards img {
+      margin-top:50px;
+      width:70px;
+      height:70px;
+  }
+  .sustain img {
+        margin-top:50px;
+      width:70px;
+      height:70px;
+  }
+footer {
+  text-align: center;
+  background-color: black;
+}
+footer h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Orbitron', sans-serif;
+}
+
