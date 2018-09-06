@@ -4,129 +4,129 @@
     width: 100px;
     height: 50px;
 }
-.col-xs-10 {
-  text-align: center;
-  margin-top: 15px;
+.col-lg-10 {
+    text-align: center;
+    margin-top: 15px;
 }
-.col-xs-10 li {
-  margin-left: 50px;
-  display: inline-block;
-  text-decoration: none;
-  list-style: none;
-  font-size: 20px;
-  color: slategray;
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Russo One', sans-serif;
-  font-family: 'Luckiest Guy', cursive;
-  font-family: 'Sigmar One', cursive;
-  font-family: 'Monoton', cursive;
-  font-family: 'Passion One', cursive;
-  font-family: 'Bungee Inline', cursive;
-  font-family: 'Fredericka the Great', cursive;
-  font-family: 'Orbitron', sans-serif;
+.col-lg-10 li {
+    margin-left: 50px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: slategray;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 .col-md-12 {
-  object-fit: cover;
+    object-fit: cover;
 }
 .col-md-12 img {
-  width: 100%;
+    width: 100%;
 }
 .container h1 {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 .col-xs-4 {
     text-align: center;
     margin-top:10px;
   }
-  .logo1 {
+.logo1 {
     margin-left: 65px;
     height: 230px;
     width: 230px;
     border-bottom: 3px solid red;
-  }
-  .logo1:hover {
+}
+.logo1:hover {
     border: 1px solid black;
     box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
     background-color: rgba(255, 0, 0, 0.5);
-  }
-  .logo1 img {
+}
+.logo1 img {
     margin-top: 20px;
     width:70px;
     height:70px;
-  }
-  .logo1 h1 {
+}
+.logo1 h1 {
     font-size: 25px;
-  }
-  .logo1 h2 {
+}
+.logo1 h2 {
     font-size: 15px;
-  }
-  .logo2 {
+}
+.logo2 {
     margin-left: 65px;
     border-bottom: 3px solid cadetblue;
     height: 230px;
     width: 230px;
-  }
-  .logo2:hover {
+}
+.logo2:hover {
     border: 1px solid black;
     box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
     background-color: rgba(95, 158, 160, 0.5)
-  }
-  .logo2 img {
+}
+.logo2 img {
     margin-top: 20px;
     width:70px;
     height:70px;
-  }
-  .logo2 h1 {
+}
+.logo2 h1 {
     font-size: 25px;
-  }
-  .logo2 h2 {
+}
+.logo2 h2 {
     font-size: 15px;
-  }
-  .logo3 {
+}
+.logo3 {
     margin-left: 65px;
     border-bottom: 3px solid rgb(4, 19, 68);
     height: 230px;
     width: 230px;
-  }
-  .logo3:hover {
+}
+.logo3:hover {
     border: 1px solid black;
     box-shadow: 0px 8px 10px 10px rgb(10, 10, 10);
     background-color: rgba(4, 19, 68, 0.6);
-  }
-  .logo3 img {
+}
+.logo3 img {
     margin-top: 20px;
     width:70px;
     height:70px;
-  }
-  .logo3 h1 {
+}
+.logo3 h1 {
     font-size: 25px;
-  }
-  .logo3 h2 {
+}
+.logo3 h2 {
     font-size: 15px;
-  }
-  .vid video {
+}
+.vid video {
     margin-top:20px;
     margin-left:0px;
     width: 100%;
-  }
-  .news img {
-      margin-top:50px;
-      width:70px;
-      height:70px;
-  }
-  .awards img {
-      margin-top:50px;
-      width:70px;
-      height:70px;
-  }
-  .sustain img {
-        margin-top:50px;
-      width:70px;
-      height:70px;
-  }
+}
+.news img {
+    margin-top:50px;
+    width:70px;
+    height:70px;
+}
+.awards img {
+    margin-top:50px;
+    width:70px;
+    height:70px;
+}
+.sustain img {
+    margin-top:50px;
+    width:70px;
+    height:70px;
+}
 footer {
-  text-align: center;
-  background-color: black;
+    text-align: center;
+    background-color: black;
 }
 footer h1 {
     font-family: 'Abril Fatface', cursive;
