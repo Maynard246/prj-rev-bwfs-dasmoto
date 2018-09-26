@@ -1,0 +1,142 @@
+<!DOCTYPE>
+<html>
+   <head>
+      <link rel="icon" href="photos/icon.png" type="image/x-icon">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Glegoo:400,700|Overpass" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+      <title>Studio</title>
+   </head>
+   <body>
+      <!--head--> 
+      <div class="container-fluid">
+         <div class="row">
+            <nav class="navbar navbar-fixed-top">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <div class="col-xs-2 vintage">
+                     <img src="photos/logo.png"/>
+                  </div>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#invisible">Live</a></li>
+                     <li><a href="#read">About</a></li>
+                     <li><a href="#margin">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!--body-->
+      <div class="header">
+         <div class="overlay">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 text-justify imgtext">
+               <h1>An Online</h1>
+               <h1> &nbsp&nbsp&nbsp&nbsp Music Studio</h1>
+               <h1>for everyone</h1>
+               <button class="login" onclick="document.getElementById('id01')">Login</button>
+               <div id="invisible">
+                  <h1>sdasdasdasd</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row">
+            <div class=text-center>
+               <h2 id="live">► Live ◄</h2>
+            </div>
+            <div class="col-md-4 col-xs-12">
+               <div class="cont2">   
+                  <img src="photos/76B1.gif"/>
+               </div>
+            </div>
+            <div class=" col-md-4 col-xs-12">
+               <div class="cont3">   
+                  <img src="photos/tenor.gif"/>
+               </div>
+            </div>
+            <div class=" col-md-4 col-xs-12">
+               <div class="cont3">   
+                  <img src="photos/tumblr_mgtp5u18I41rfdoy6o1_1280.gif"/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid bgcolor fade-in">
+         <div class="row ">
+            <div class="col-xs-12 text-center">
+               <h1>ABOUT STUDIOS | RECORDING STUDIO</h1>
+               <p>Recording studios may be used to record singers, instrumental musicians  "electric guitar, piano, saxophone, or ensembles such as orchestras" voice-over artists for advertisements or dialogue replacement in film, television, or animation, foley, or to record their accompanying musical soundtracks. The typical recording studio consists of a room called the "studio" or "live room" and sometimes additional isolation booths equipped with microphones and mic stands, where instrumentalists and vocalists perform; and the "control room", where sound engineers, sometimes with record producers, as well, operate professional audio mixing consoles, effects units, or computers "post 1980s and 1990s" with specialized software suites to mix, manipulate by adjusting the equalization and adding effects and route the sound for analogue recording on tape or digital recording on hard disc. The engineers and producers listen to the live music and the recorded "tracks" on high-quality monitor speakers or headphones.</p>
+               <button id="read" ><a href="https://en.wikipedia.org/wiki/Recording_studio">Read More</a></button>
+            </div>
+         </div>
+         <div id="margin">
+            <h1>sdasdasdasd</h1>
+            </br>
+         </div>
+      </div>
+      <div class="container">
+         <div style="text-align:center">
+            <h2 class="contact">Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+         </div>
+         <div class="row">
+            <div class="column">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.742930257943!2d120.57182131432647!3d15.172456166875117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ed81d59b137b%3A0x4a2f5b9c1ce43a31!2sABC+A2B+OUTSOURCING+PHILS.+PTY+LTD.+INC.!5e0!3m2!1sen!2sph!4v1537848217051" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="column">
+               <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                     <option value="usa">Philippines</option>
+                     <option value="australia">Australia</option>
+                     <option value="canada">Canada</option>
+                     <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid footer">
+         <div class="row">
+            <div class="col-xs-6">
+               <h4>© 2018 The Music Studios. All rights reserved.</h4>
+            </div>
+            <div class="col-xs-2 iconic">
+               <a href="https://www.facebook.com/"><img src="photos/facebook.png"></a>
+            </div>
+            <div class="col-xs-2 iconic">
+               <a href="https://www.twitter.com/"><img src="photos/twitter.png"></a>
+            </div>
+            <div class="col-xs-2 iconic">
+               <a href="https://www.instagram.com/"><img src="photos/instagram.png"></a>
+            </div>
+         </div>
+      </div>
+      <!--click scroll up-->
+      <button class="up" onclick="topFunction()" id="myBtn" title="Go to top"><img src="photos/up.png"></button>
+      <!--Link of javascript-->
+      <script src="index.js"></script>
+   </body>
+   </head>
+</html>
