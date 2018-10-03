@@ -1,0 +1,124 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/*header*/
+
+.navbar {
+	height: 100px;
+	transition: .5s;
+	background-color: white;
+	border: 0px;
+}
+
+li {
+	font-size: 20px;
+	margin-top: 25px;
+	transition: .5s;
+}
+
+.navbar h1 {
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	margin-right: 40px;
+	transition: .5s;
+}
+
+.navbar img {
+	height: 70px;
+	width: 90px;
+	transition: .5s;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+h1 {
+	font-family: arial, helvetica, sans-serif;
+}
+
+.item h3 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+.item a {
+	font-family: arial, helvetica, sans-serif;
+}
+
+.item img {
+	height: 1000px;
+}
+
+.header {
+	background-image: url('photos/christmastree.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 900px;
+}
+
+
+/*Body*/
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.overlay {
+	color: white;
+	font-size: 20px;
+	margin-top: 200px;
+}
+
+.overlay h1 {
+	margin-top: 300px;
+	height: 80px;
+	background-color: black;
+	opacity: .5;
+	text-align: center;
+	width: 300px;
+}
+
+.hid {
+	visibility: hidden;
+}
+
+.spot {
+	background-color: black;
+	opacity: .8;
+}
+
+#myCarousel img {
+	height: 100%;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgb(44, 44, 44);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	opacity: .8;
+}
+
+#myBtn:hover {
+	background-color: rgb(59, 58, 58);
+	opacity: 1;
+}
+
+#myBtn img {
+	height: 30px;
+}
