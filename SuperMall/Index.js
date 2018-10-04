@@ -35,3 +35,23 @@ $(document).ready(function(){
     }
  })
  })
+ $(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100){
+            $(".cont3").css({"opacity" : "1"})
+        }
+ else {
+        $(".cont3").css({"opacity" : "0"})
+    }
+ })
+ })
+ $(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100){
+            $("iframe").css({"opacity" : "1"})
+        }
+ else {
+        $("iframe").css({"opacity" : "0"})
+    }
+ })
+ })
